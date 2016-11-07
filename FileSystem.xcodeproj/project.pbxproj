@@ -13,6 +13,9 @@
 		049168041C132A74000C8D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049168021C132A74000C8D01 /* Main.storyboard */; };
 		049168061C132A74000C8D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049168051C132A74000C8D01 /* Assets.xcassets */; };
 		049168091C132A74000C8D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049168071C132A74000C8D01 /* LaunchScreen.storyboard */; };
+		049168121C132A94000C8D01 /* FileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049168111C132A94000C8D01 /* FileCell.m */; };
+		049168151C133036000C8D01 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 049168141C133036000C8D01 /* File.m */; };
+		049168181C1338D1000C8D01 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049168171C1338D1000C8D01 /* FileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		049168051C132A74000C8D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049168081C132A74000C8D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0491680A1C132A74000C8D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049168101C132A94000C8D01 /* FileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileCell.h; sourceTree = "<group>"; };
+		049168111C132A94000C8D01 /* FileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileCell.m; sourceTree = "<group>"; };
+		049168131C133036000C8D01 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		049168141C133036000C8D01 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		049168161C1338D1000C8D01 /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		049168171C1338D1000C8D01 /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				049167FD1C132A74000C8D01 /* AppDelegate.m */,
 				049167FF1C132A74000C8D01 /* ViewController.h */,
 				049168001C132A74000C8D01 /* ViewController.m */,
+				049168161C1338D1000C8D01 /* FileViewController.h */,
+				049168171C1338D1000C8D01 /* FileViewController.m */,
+				049168101C132A94000C8D01 /* FileCell.h */,
+				049168111C132A94000C8D01 /* FileCell.m */,
+				049168131C133036000C8D01 /* File.h */,
+				049168141C133036000C8D01 /* File.m */,
 				049168021C132A74000C8D01 /* Main.storyboard */,
 				049168051C132A74000C8D01 /* Assets.xcassets */,
 				049168071C132A74000C8D01 /* LaunchScreen.storyboard */,
@@ -149,7 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049168181C1338D1000C8D01 /* FileViewController.m in Sources */,
+				049168151C133036000C8D01 /* File.m in Sources */,
 				049168011C132A74000C8D01 /* ViewController.m in Sources */,
+				049168121C132A94000C8D01 /* FileCell.m in Sources */,
 				049167FE1C132A74000C8D01 /* AppDelegate.m in Sources */,
 				049167FB1C132A74000C8D01 /* main.m in Sources */,
 			);
